@@ -30,6 +30,11 @@
 #include "mp_precomp.h"
 #include "phydm_precomp.h"
 
+#if (LINUX_VERSION_CODE >= KERNEL_VERSION(6, 8, 0))
+#define strlcpy strscpy
+#define strncpy strscpy
+#endif
+
 void phydm_init_debug_setting(struct dm_struct *dm)
 {
 	dm->fw_debug_components = 0;

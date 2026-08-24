@@ -93,8 +93,7 @@ the hardware to test the above.
 ### Compatible Kernels
 
 - Kernels: 5.10 - 5.11 (Realtek)
-- Kernels: 5.12 - 6.14  (community support)
-- Kernels: 6.18.4 and later (debian based distros only with gcc 15.2)
+- Kernels: 5.12 - 7.1  (community support)
 
 Note: Kernels earlier than 5.10 may work but are not tested or
 supported.

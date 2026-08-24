@@ -19,6 +19,7 @@
 
 #if (LINUX_VERSION_CODE >= KERNEL_VERSION(6, 8, 0))
 #define strlcpy strscpy
+#define strncpy strscpy
 #endif
 
 MODULE_LICENSE("GPL");
