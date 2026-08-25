@@ -23,11 +23,6 @@
 #include "../../hal/hal_halmac.h"
 #endif
 
-#if (LINUX_VERSION_CODE >= KERNEL_VERSION(6, 8, 0))
-#define strlcpy strscpy
-#define strncpy strscpy
-#endif
-
 void rtw_dump_fw_info(void *sel, _adapter *adapter)
 {
 	HAL_DATA_TYPE	*hal_data = NULL;
